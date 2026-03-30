@@ -1,21 +1,16 @@
-# Operation
+## Operation
 gcc client.c -o client.exe -lws2_32
 gcc server.c -o server.exe -lws2_32
 
 type this on the server cmd
 server.exe
 
-
 and this on the client cmd
 client.exe 127.0.0.1 UPLOAD/DOWNLOAD file.extension
-
-
 
 To test with real files:
 when uploading, place real files in the client folder 
 when downloading, place real files in the server folder
-
-
 
 toggle code: Uncomment when demonstrating error handling
 
@@ -37,3 +32,7 @@ toggle code: Uncomment when demonstrating error handling
                     printf("[!] Timeout hit! Retransmitting sequence %u (Attempt %d)\n", data_pkt.seq_num, retries + 1);
                 }
                 /* -------------------------------------------- */
+
+## Contributors
+1. Vince Jocson
+2. Benjamin Barlaaan
