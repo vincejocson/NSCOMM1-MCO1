@@ -1,5 +1,6 @@
 ## Implementation of Reliable Data Transfer over UDP
-A custom application-layer protocol providing TCP-like reliability, sequencing, and session management over UDP for binary-safe file transfers, including a comprehensive mini-RFC documenting the protocol’s state machines, packet formats, and error-handling mechanisms.
+A custom application-layer protocol providing TCP-like reliability, sequencing, and session management over UDP for binary-safe file 
+transfers, including a comprehensive mini-RFC documenting the protocol’s state machines, packet formats, and error-handling mechanisms.
 
 ## Operation
 gcc client.c -o client.exe -lws2_32
